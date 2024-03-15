@@ -1,0 +1,82 @@
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+.rounded-img{
+    border-radius: 50%;
+}
+#header-container{
+    background-color: #048c7f;
+}
+.nav-link{
+    color: white;
+}
+#resume-button{
+    background-color: #048c7f;
+    border: 1px solid #048c7f;
+}
+#portfolio-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+}
+.dark-bg{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #048c7f;
+    height: 270px;
+    width: 500px;
+    border-radius: 0.75rem;
+}
+.project-img{
+    border-radius: 0.75rem;
+}
+.contact-link{
+    text-decoration: none;
+    color: #048c7f;
+}
+.contact-list{
+    text-align: center;
+    list-style: none;
+}
+#heading-text{
+    color: #048c7f;
+}
+.contact-detail{
+    display: flex;
+    width: 350px;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+}
+.list-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.code-button{
+    background-color: white;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.code-button:hover{
+    background-color: lightgray;
+    color: black;
+}
+.code-link{
+    text-decoration: none;
+}
