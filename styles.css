@@ -11,6 +11,9 @@
 .nav-link{
     color: white;
 }
+.nav-link:hover{
+    color: lightgray;
+}
 #resume-button{
     background-color: #048c7f;
     border: 1px solid #048c7f;
@@ -20,6 +23,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 15px;
+    place-items: center;
 }
 .dark-bg{
     --bs-bg-opacity: 1;
@@ -79,4 +83,22 @@
 }
 .code-link{
     text-decoration: none;
+}
+figcaption{
+    color: white;
+}
+
+@media only screen and (max-width:1000px){
+    #portfolio-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-container{
+        width: 380px;
+    }
+    .rounded-img{
+        height: 170px;
+    }
 }
