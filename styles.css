@@ -40,7 +40,7 @@
     border-radius: 0.75rem;
 }
 .project-img{
-    border-radius: 0.75rem;
+    border-radius: 0.5rem;
 }
 .contact-link{
     text-decoration: none;
@@ -87,6 +87,12 @@
 figcaption{
     color: white;
 }
+#skill-stack{
+    width: 60%;
+}
+#skills{
+    text-align: center;
+}
 
 @media only screen and (max-width:1000px){
     #portfolio-section{
@@ -100,5 +106,8 @@ figcaption{
     }
     .rounded-img{
         height: 170px;
+    }
+    #skill-stack{
+        width: 70%;
     }
 }
