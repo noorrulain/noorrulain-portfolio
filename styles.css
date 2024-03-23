@@ -93,6 +93,9 @@ figcaption{
 #skills{
     text-align: center;
 }
+.skill-badge{
+    padding: 3px;
+}
 
 @media only screen and (max-width:1000px){
     #portfolio-section{
