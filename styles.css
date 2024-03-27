@@ -18,6 +18,9 @@
     background-color: #048c7f;
     border: 1px solid #048c7f;
 }
+#resume-button:hover{
+    border: 3px solid gray;
+}
 #portfolio-section{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,8 +38,10 @@
     justify-content: center;
     align-items: center;
     background-color: #048c7f;
-    height: 270px;
+    color: white;
+    /* height: 270px; */
     width: 500px;
+    padding: 10px;
     border-radius: 0.75rem;
 }
 .project-img{
@@ -84,9 +89,6 @@
 .code-link{
     text-decoration: none;
 }
-figcaption{
-    color: white;
-}
 #skill-stack{
     width: 60%;
 }
@@ -96,6 +98,17 @@ figcaption{
 .skill-badge{
     padding: 3px;
 }
+.project-desc{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: justify;
+    padding: 5px;
+}
+h4{
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
 
 @media only screen and (max-width:1000px){
     #portfolio-section{
@@ -112,5 +125,8 @@ figcaption{
     }
     #skill-stack{
         width: 70%;
+    }
+    .project-img{
+        height: 160px;
     }
 }
