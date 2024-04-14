@@ -16,10 +16,16 @@
 }
 #resume-button{
     background-color: #048c7f;
-    border: 1px solid #048c7f;
+    border: 2px solid #048c7f;
+    /* color: #048c7f; */
 }
-#resume-button:hover{
-    border: 3px solid gray;
+/* #resume-button:hover{
+    background-color: lightgray;
+    color: #048c7f;
+} */
+#resume-button:hover::after{
+    content: ">";
+    color: lightgray;
 }
 #portfolio-section{
     display: grid;
@@ -106,7 +112,7 @@
 }
 h4{
     font-weight: normal;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 }
 
 
